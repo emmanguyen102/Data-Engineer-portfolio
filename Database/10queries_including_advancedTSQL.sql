@@ -1,6 +1,4 @@
 ﻿
--- Khóa DBI202x_2.1-A_VN Các hệ cơ sở dữ liệu
--- Hang Nguyen (FZ17081)
 -- 10 câu truy vấn bắt buộc
 -- có bao gồm sử dụng ít nhất 1 function (câu 10.)
 -- có bao gồm sử dụng ít nhất 1 indexing (các bảng chính đã có primary key, tự động là clustered index)
