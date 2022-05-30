@@ -7,7 +7,7 @@ I also post almost daily on my [Medium blog](https://hangmortimer.medium.com/) (
 ## Description
 
 The repo contains 4 main sections:
-- Databases: Creating ERD and then  transform it into a Database in MySQL Server.
+- Database: Creating ERD and then  transform it into a Database in MySQL Server.
 - Data Warehouse and ETL process:
 - Spark
 - Cloud computing: AWS
