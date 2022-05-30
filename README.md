@@ -32,8 +32,8 @@ Kudos to course [70-461, 761: Querying Microsoft SQL Server with Transact-SQL](h
 
 Contributors names and contact info
 
-Hang Nguyen 
-M.Sc Statistical Data Analytics, Tampere University
-hangmortimer@gmail.com
+* Hang Nguyen 
+* M.Sc Statistical Data Analytics, Tampere University
+* hangmortimer@gmail.com
 
 
