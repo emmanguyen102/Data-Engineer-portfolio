@@ -1,6 +1,4 @@
 ﻿
--- Khóa DBI202x_2.1-A_VN Các hệ cơ sở dữ liệu
--- Hang Nguyen (FZ17081)
 -- Create 8 tables with all neccessary components and 
 -- add artificial records to each table so that querries can be written for further requirement
 
