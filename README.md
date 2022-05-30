@@ -8,7 +8,6 @@ I also post almost daily on my [Medium blog](https://hangmortimer.medium.com/) (
 
 The repo contains 4 main sections:
 - Databases: Creating ERD and then  transform it into a Database in MySQL Server.
-Kudos to course [70-461, 761: Querying Microsoft SQL Server with Transact-SQL](https://funix.udemy.com/course-dashboard-redirect/?course_id=555384) on Udemy.
 - Data Warehouse and ETL process:
 - Spark
 - Cloud computing: AWS
