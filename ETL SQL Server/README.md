@@ -11,5 +11,6 @@ In this section, let's play around with ETL in SQL Server with AdventureWorksDW 
 2. AdventureWorksDW2014 
 3. Visual Studio 2019
 4. SQL Server Integration Service extension in Visual Studio 2019
-<br>
-More about this project can be found on my Medium [blog post](https://medium.com/@hangmortimer/data-warehouse-part-3-etl-or-elt-a-bit-of-practice-as-well-8a7b206867fd) about ETL or ELT.
+
+# More information
+More about this project can be found on my Medium [blogpost](https://hangmortimer.medium.com/data-warehouse-part-3-etl-or-elt-a-bit-of-practice-as-well-8a7b206867fd) about ETL or ELT.
