@@ -25,7 +25,9 @@ The repo contains 4 main sections:
 
 ## Courses:
 - Database:  [70-461, 761: Querying Microsoft SQL Server with Transact-SQL](https://funix.udemy.com/course-dashboard-redirect/?course_id=555384) on Udemy.
-- Data Warehouse: [Data Warehouse Fundamentals for Beginners](https://funix.udemy.com/course/data-warehouse-fundamentals-for-beginners/learn/lecture/17728284?start=120#content) on Udemy
+- Data Warehouse basics: [Data Warehouse Fundamentals for Beginners](https://funix.udemy.com/course/data-warehouse-fundamentals-for-beginners/learn/lecture/17728284?start=120#content) on Udemy
+- Data Warehouse basics: [Best Practices and Concepts for Architecture and Dimensional Design](https://funix.udemy.com/course/data-warehouse-developer-sql-serveretlssisssasssrst-sql/learn/lecture/25518478#overview)
+- Data Warehouse design: [Develop and Implement a Data Warehouse Solution Step by step](https://funix.udemy.com/course/data-warehouse-developer-sql-serveretlssisssasssrst-sql/learn/lecture/25518478#overview)
 
 ## Authors
 
