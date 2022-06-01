@@ -4,6 +4,7 @@ In this section, let's play around with ETL in SQL Server with AdventureWorksDW 
 1. Create a SSIS project
 2. Create database and tables
 3. Insert data into the table of just created database
+4. Transformation in ETL
 
 # Requirement
 1. SQL Server 2019
