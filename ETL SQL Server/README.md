@@ -1,4 +1,4 @@
-In this section, let's play around with ETL in SQL Server with AdventureWorksDW by Microsoft and a small set of data.
+In this section, let's play around with ETL in SQL Server with AdventureWorksDW by Microsoft and a small set of [data](https://drive.google.com/file/d/10bqlB64Z6IQ9jauVddB2lN6GROOd_Cup/view?usp=sharing).
 
 # Step by step process:
 1. Create a SSIS project
