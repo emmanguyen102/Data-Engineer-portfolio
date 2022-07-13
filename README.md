@@ -2,7 +2,7 @@
 
 Thanks to some courses and internships, I realize my deep passion of Data Engineering track and technology in this field.
 This repo is created after cramming some courses with the aim of gaining deeper knowledge in this field.
-I also post almost daily on my [Medium blog](https://hangmortimer.medium.com/) (with already > 3k views) during this journey. 
+I also post almost daily on my [Medium blog](https://hangmortimer.medium.com/) (with already > 4k views and around 100 followers) during this journey. 
 
 ## Description
 
