@@ -24,10 +24,12 @@ The repo contains 7 main sections:
 ### Installing
 
 * MySQL Server 2019
-* Microsoft SQL Server Studio Management 18
-* VS code 2022
-* MongoDB Compass
-* Scrapy, Splash
+* Microsoft SQL Server Studio Management 18 -> Interact with SQL Server
+* VS code 2022 -> Coding tool with tons of plugins
+* MongoDB Compass -> Interact with MongoDB
+* Scrapy 
+* Docker Desktop -> Airflow, Splash
+* Python, Java, Anaconda, Hadoop wintils -> PySpark
 
 ## Courses:
 - Database:  [70-461, 761: Querying Microsoft SQL Server with Transact-SQL](https://funix.udemy.com/course-dashboard-redirect/?course_id=555384) on Udemy.
