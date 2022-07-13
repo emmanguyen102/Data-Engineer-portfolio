@@ -6,12 +6,13 @@ I also post almost daily on my [Medium blog](https://hangmortimer.medium.com/) (
 
 ## Description
 
-The repo contains 4 main sections:
+The repo contains 7 main sections:
 - Database: Creating ERD and then  transform it into a Database in MySQL Server.
 - Data Warehouse and ETL process: ETL in SSIS
 - NoSQL database practice: MongoDB
 - Web crawling: Scrapy, Splash
-- Spark
+- PySpark with MongoDB, Kafka
+- Airflow: Workflow management
 - Cloud computing: AWS
 
 ## Getting Started
