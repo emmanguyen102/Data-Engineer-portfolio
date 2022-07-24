@@ -1,4 +1,4 @@
-# Database: Data modelling of an e-news website and turn ERD design into a physical database in MySQL Server
+# Data modelling of an e-news website and turn ERD design into a physical database in MySQL Server
 
 An e-news website was investagted with the aim of creating the ERD. This was later turned into a database in MySQL Server using T-SQL along with 10 querries from database to practice advanced T-SQL syntax including 1 function, 1 trigger, 1 stored procedure, 1 indexing and 2 transactions
 <br>
