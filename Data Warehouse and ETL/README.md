@@ -28,31 +28,31 @@ Pet_FACT:
 Other DIM tables:
 - Surrogate key: as noted with (PK) in the following figure
 
-![Figure 1](/img/DataWarehouseERD.PNG)
+![Figure 1](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/Data%20Warehouse%20and%20ETL/img/DataWarehouseERD.PNG)
 
 ### SQL queries to build data warehouse
-The SQL script of defining these tables is saved in file [SQLscript_define_tables.sql](/SQLscript_define_tables.sql)
+The SQL script of defining these tables is saved in file [SQLscript_define_tables.sql](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/Data%20Warehouse%20and%20ETL/SQLscript_define_tables.sql)
 
 ### ETL process
-The SSIS package file can be found [here](/ETL_SSIS_package.dtsx).
+The SSIS package file can be found [here](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/Data%20Warehouse%20and%20ETL/ETL_SSIS_package.dtsx).
 The process of designing ETL is as follows:
 1. Load data into each dim table using Sort (not to take duplicate) and Lookup (insert if no same data
 in table).
-![ETL in a DIM table](/img/ETL1.png)
+![ETL in a DIM table](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/Data%20Warehouse%20and%20ETL/img/ETL1.PNG)
 2. Put all load DIM table task in sequence container so that loading data simultaneously to all dim
 tables (parallel ETL).
 3. After loading data into DIM tables, start loading to fact table based on these DIM tables by looking
 up the same match and take the id of these DIM tables so that they can match with foreign keys in
 fact table.
-![Whole ETL process](/img/ETL2.png)
-![ETL in FACT table](/img/ETL3.png)
+![Whole ETL process](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/Data%20Warehouse%20and%20ETL/img/ETL2.PNG)
+![ETL in FACT table](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/Data%20Warehouse%20and%20ETL/img/ETL3.PNG)
 
 ### Test validity of data warehouse
 By answering these business questions
 1. How many dogs get vaccinated?
 2. How many dogs that are healthy?
 3. How many dogs are female and has 3 colors?
-SQL queries are saved in [this](/SQLscript_BusinessQueries.sql) file.
+SQL queries are saved in [this](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/Data%20Warehouse%20and%20ETL/SQLscript_BusinessQueries.sql) file.
 
 ## Prerequisites
 1. SQL Server 2019 
