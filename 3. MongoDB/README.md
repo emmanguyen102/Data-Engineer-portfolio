@@ -103,9 +103,11 @@ User collection: 32429 documents
 
 ### Create index
 
-1. Create index in collection “finance” collection:
-Type: compound index
-	db.finance.createIndex({income_bracket:1, total: 1})
+1. Create index in collection “finance” collection:  
+Type: compound index  
+```
+	db.finance.createIndex({income_bracket:1, total: 1})  
+```
 Reason: Faster to retrieve data, meaning that the mongodb did not have to scan all of the documents, and only those matching documents had to be pulled into memory. This results in a very efficient query.
 2. The same applies to other collections, where shows potential for creating index other than _id.
 - “finance” collection: single field index for only income_bracket field, so that later if we want to retrieve data only for this field in this collection or in join with other connections to get result related to this field.
