@@ -39,11 +39,14 @@ only 1 kind of education
 
 1. Import file in mongoDB compass into database named “DEPx302_Asm2” under collection named
 “whole”. The idea is load data into the database without separating it into different collections up
-to this point.
+to this point.  
+
 ![erd2](./img/import%20data.png)
 2. While loading data, some variables’ data types have been changed into int32 including age, total,
-capital_gain, capital_loss, hours_per_week, and education-num.
+capital_gain, capital_loss, hours_per_week, and education-num.  
+
 ![erd3](./img/change%20data%20type.png)
+
 3. Sequentially import data into these 5 predefined collections. Source code can be found in file [Import data to collections.js](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/3.%20MongoDB/Import%20data%20to%20collections.js).
 
 ### Collections
