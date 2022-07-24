@@ -45,7 +45,7 @@ tables (parallel ETL).
 up the same match and take the id of these DIM tables so that they can match with foreign keys in
 fact table.
 ![Whole ETL process](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/Data%20Warehouse%20and%20ETL/img/ETL2.PNG)
-![ETL in FACT table](./img/ETL3.png)
+![ETL in FACT table](https://github.com/emmanguyen102/Data-Engineer-portfolio/blob/main/Data%20Warehouse%20and%20ETL/img/ETL3.PNG)
 
 ### Test validity of data warehouse
 By answering these business questions
