@@ -5,7 +5,7 @@
 This repo is created with the aim of gaining indepth knowledge of the field Data Engineer.
 I also post almost daily on my [Medium blog](https://hangmortimer.medium.com/) (with already > 5k views and > 100 followers) during this journey. 
 I suggest following the following order:
-Database -> Data Warehouse and ETL -> NoSQL -> Web Scraping -> Spark -> Airflow -> Cloud
+<br> Database -> Data Warehouse and ETL -> NoSQL -> Web Scraping -> Spark -> Airflow -> Cloud
 
 ## Description
 
