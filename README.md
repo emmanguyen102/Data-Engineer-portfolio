@@ -1,35 +1,38 @@
 # Data-Engineer-portfolio
 
-Thanks to some courses and internships, I realize my deep passion of Data Engineering track and technology in this field.
-This repo is created after cramming some courses with the aim of gaining deeper knowledge in this field.
-I also post almost daily on my [Medium blog](https://hangmortimer.medium.com/) (with already > 4k views and around 100 followers) during this journey. 
+## Purpose
+
+This repo is created with the aim of gaining indepth knowledge of the field Data Engineer.
+I also post almost daily on my [Medium blog](https://hangmortimer.medium.com/) (with already > 5k views and > 100 followers) during this journey. 
 
 ## Description
 
-The repo contains 7 main sections:
-- Database: Creating ERD and then  transform it into a Database in MySQL Server.
-- Data Warehouse and ETL process: ETL in SSIS
-- NoSQL database practice: MongoDB
-- Web crawling: Scrapy, Splash
-- PySpark with MongoDB, Kafka
-- Airflow: Workflow management
+The repo contains 7 main sections in such order:
+- Database: Creating ERD for data modelling and then transform ERD into a physical database in MySQL Server.
+- Data Warehouse and ETL process: Data modelling following star schema design and ETL to database using SSIS.
+- NoSQL database practice: Practice import data to mongo and query data from MongoDB.
+- Web crawling: Scrapy, Splash with main project of scraping data from websites.
+- PySpark with MongoDB connector for batch processing and streaming with Kafka.
+- Airflow: Data pipeline management (LocalExecutor with MongoDB, Spark and Celery executor with RabbitMQ and MySQL Server)
 - Cloud computing: AWS
 
 ## Getting Started
 
-### Dependencies
+### Operating systems
 
 * Windows 10
+* Xubuntu 20.04 for Airflow deployment
 
-### Installing
+### Prerequisites
 
 * MySQL Server 2019
-* Microsoft SQL Server Studio Management 18 -> Interact with SQL Server
+* Microsoft SQL Server Studio Management 18 -> Interact with MySQL Server
 * VS code 2022 -> Coding tool with tons of plugins
 * MongoDB Compass -> Interact with MongoDB
 * Scrapy 
 * Docker Desktop -> Airflow, Splash
 * Python, Java, Anaconda, Hadoop wintils -> PySpark
+* Linux: airflow, pyspark, mongoDB, MySQL Server, rabbitMQ -> Airflow
 
 ## Courses:
 - Database:  [70-461, 761: Querying Microsoft SQL Server with Transact-SQL](https://funix.udemy.com/course-dashboard-redirect/?course_id=555384) on Udemy.
