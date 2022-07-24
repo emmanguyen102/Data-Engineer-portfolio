@@ -41,7 +41,8 @@ only 1 kind of education
 “whole”. The idea is load data into the database without separating it into different collections up
 to this point.  
 
-![erd2](./img/import%20data.png)
+![erd2](./img/import%20data.png)  
+
 2. While loading data, some variables’ data types have been changed into int32 including age, total,
 capital_gain, capital_loss, hours_per_week, and education-num.  
 
