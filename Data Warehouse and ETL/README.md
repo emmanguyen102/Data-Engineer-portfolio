@@ -28,23 +28,24 @@ Pet_FACT:
 Other DIM tables:
 - Surrogate key: as noted with (PK) in the following figure
 
-![Figure 1](/DataWarehouseERD.PNG)
+![Figure 1](/img/DataWarehouseERD.PNG)
 
 ### SQL queries to build data warehouse
 The SQL script of defining these tables is saved in file [SQLscript_define_tables.sql](/SQLscript_define_tables.sql)
 
 ### ETL process
+The SSIS package file can be found [here](/ETL_SSIS_package.dtsx).
 The process of designing ETL is as follows:
 1. Load data into each dim table using Sort (not to take duplicate) and Lookup (insert if no same data
 in table).
-![ETL in a DIM table](/ETL1.PNG)
+![ETL in a DIM table](/img/ETL1.png)
 2. Put all load DIM table task in sequence container so that loading data simultaneously to all dim
 tables (parallel ETL).
 3. After loading data into DIM tables, start loading to fact table based on these DIM tables by looking
 up the same match and take the id of these DIM tables so that they can match with foreign keys in
 fact table.
-![Whole ETL process](/ETL2.PNG)
-![ETL in FACT table](/ETL3.PNG)
+![Whole ETL process](/img/ETL2.png)
+![ETL in FACT table](/img/ETL3.png)
 
 ### Test validity of data warehouse
 By answering these business questions
