@@ -1,18 +1,41 @@
-# Database
-I have explored the world of MySQL Server with T-SQL with the help of one course on Udemy (a list of courses can be found in README.md file in the main repo).
-<br>I have solved all SQL challenges on HackerRank for basic SQL syntax, which took me around 3 days.
-However, understanding advanced T-SQL is quite different experience as I have never touched advanced SQL that much before. Thanksfully, I have done a project on 
-e-news website database desgin from scratch with 10 querries to understand these advanced T-SQL concept in practice. It is actually very logical and fun at the same
-time to see my codes get errors all the time. Each time I encountered something wrong, I immediately searched StackOverFlows and gained much better acknowledge of
-SQL Server in general. 
+# Database: Data modelling of an e-news website and turn ERD design into a physical database in MySQL Server
+
+An e-news website was investagted with the aim of creating the ERD. This was later turned into a database in MySQL Server using T-SQL along with 10 querries from database to practice advanced T-SQL syntax.  
 <br>
 <br>
 
 ## ERD
-I created this by using this tool called [LucidChart](https://www.google.com/aclk?sa=l&ai=DChcSEwilsdOL6Ib4AhVOFXsKHbFCDXkYABAAGgJsZQ&ae=2&sig=AOD64_3ffR6msjyq6BlPuqzE0c3pSjPm2Q&q&adurl&ved=2ahUKEwjbr8iL6Ib4AhWhCRAIHW1rB20Q0Qx6BAgDEAE)
-<br>Here is the ERD design for this project. I no mean say this is an actual version of any e-news website, this is just my own design:
+The ERD was created by using the tool called [LucidChart](https://www.google.com/aclk?sa=l&ai=DChcSEwilsdOL6Ib4AhVOFXsKHbFCDXkYABAAGgJsZQ&ae=2&sig=AOD64_3ffR6msjyq6BlPuqzE0c3pSjPm2Q&q&adurl&ved=2ahUKEwjbr8iL6Ib4AhWhCRAIHW1rB20Q0Qx6BAgDEAE)
+<br>Here is the ERD design for this project. 
 <br>
 ![image](https://user-images.githubusercontent.com/57014399/170951231-cb601c27-8be1-4910-b7ed-44de4ee7fa87.png)
+<br>
+### Enitites description:
+
+-	Writer: aka reporter., person that writes one or several articles.
+o	writerID: unique sequence for each writer
+o	writerName: name of the writer
+-	Editor: person who is in charge of reviewing article written by one or several writers.
+o	editorID: unique sequence for each editor
+o	editorName: name of each editor
+-	Review: Since the relationship between writer and editor is M-N, a new entity named “Review” should be created to connect between these 2 entities. 
+o	reviewID: unique sequence for each review
+o	reviewDate: the day that the review session is conducted
+-	Article: an article
+o	articleID: unique sequence of each article
+o	fullContent: whole content of each article
+o	publishedDate: the day that the article is published
+o	headerName: summary of the article
+o	articleNam: name of the article
+-	ArticleWriter: Since the relationship between writer and article is M-N, a new entity named “ArticleWriter” should be created to connect between these 2 entities. 
+-	InCategory: Since the relationship between article and category is M-N, a new entity named “InCategory” should be created to connect between these 2 entities.
+-	Picture: pictures used in all articles
+o	picID: unique sequence of each picture
+o	picName: name of each picture
+-	Category:
+o	categoryID: unique sequence of each category
+o	categoryName: name of each category
+
 
 ## Database design
 Based on ERD, I created the database named “Assignmen2” with 8 tables representing 8 entities in figure 1. I have created queries 
