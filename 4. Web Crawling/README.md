@@ -14,6 +14,6 @@ The aim of the project is to do web scraping to collect covid-19 cases by timeli
 4. Repeat the whole process on a single web page until reaching the end of this website.
 
 ## Result
-The result is saved in [file]().  
+The result is saved in [file]().    
 ![img](/pic/Result%20example.PNG)) 
 
