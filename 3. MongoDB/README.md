@@ -9,15 +9,15 @@ The aim is to get used to a popular NoSQL database.
 
 ### Data set analysis
 Based on the given data set, 5 collections with its own purpose were created as follows:
-• Collection user: contains personal information of each user such as age, gender, native
+- Collection user: contains personal information of each user such as age, gender, native
 country, and race.
-• Collection education: contains information about user’s education such as education
+- Collection education: contains information about user’s education such as education
 level and number of years of education.
-• Collection occupation: contains information of user’s work class, occupation, and
+- Collection occupation: contains information of user’s work class, occupation, and
 hours of working per week.
-• Collection relationship: contains information of user’s marital status and relationship
+- Collection relationship: contains information of user’s marital status and relationship
 with owner.
-• Collection finance: contains information of user’s financial situation such as total
+- Collection finance: contains information of user’s financial situation such as total
 income, income level, capital gain and capital loss.
 
 ### ERD design
@@ -58,16 +58,17 @@ Education collection: 16 documents
 -	_id: unique classifier
 -	education: type of highest education
 -	education_num: years of education
-<br>
+
 Finance collection: 25757 documents
- ![erd5](./img/finance%20collection.png)
+<br>
+![erd5](./img/finance%20collection.png)
  <br>
 -	_id: unique classifier
 -	income_bracket: either > 50k or <= 50k
 -	total: total amount in balance
 -	capital_gain: plus changes in account
 -	capital_loss: minus changes in account
-<br>
+
 Occupation collection: 1858 documents
 <br>
 ![erd6](./img/occupation%20collection.png)
