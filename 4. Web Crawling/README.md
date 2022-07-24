@@ -15,5 +15,5 @@ The aim of the project is to do web scraping to collect covid-19 cases by timeli
 
 ## Result
 The result is saved in [file]().    
-![aloha](/pic/Result%20example.PNG)
+![aloha](./pic/Result%20example.PNG)
 
