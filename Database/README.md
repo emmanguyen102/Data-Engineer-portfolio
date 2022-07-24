@@ -12,29 +12,29 @@ The ERD was created by using the tool called [LucidChart](https://www.google.com
 <br>
 ### Enitites description:
 
--	Writer: aka reporter., person that writes one or several articles.
-o	writerID: unique sequence for each writer
-o	writerName: name of the writer
+-	Writer: aka reporter, person that writes one or several articles.
+  - writerID: unique sequence for each writer
+  - writerName: name of the writer
 -	Editor: person who is in charge of reviewing article written by one or several writers.
-o	editorID: unique sequence for each editor
-o	editorName: name of each editor
+  - editorID: unique sequence for each editor
+  - editorName: name of each editor
 -	Review: Since the relationship between writer and editor is M-N, a new entity named “Review” should be created to connect between these 2 entities. 
-o	reviewID: unique sequence for each review
-o	reviewDate: the day that the review session is conducted
+  - reviewID: unique sequence for each review
+  - reviewDate: the day that the review session is conducted
 -	Article: an article
-o	articleID: unique sequence of each article
-o	fullContent: whole content of each article
-o	publishedDate: the day that the article is published
-o	headerName: summary of the article
-o	articleNam: name of the article
+  - articleID: unique sequence of each article
+  - fullContent: whole content of each article
+  - publishedDate: the day that the article is published
+  - headerName: summary of the article
+  - articleNam: name of the article
 -	ArticleWriter: Since the relationship between writer and article is M-N, a new entity named “ArticleWriter” should be created to connect between these 2 entities. 
 -	InCategory: Since the relationship between article and category is M-N, a new entity named “InCategory” should be created to connect between these 2 entities.
 -	Picture: pictures used in all articles
-o	picID: unique sequence of each picture
-o	picName: name of each picture
+  - picID: unique sequence of each picture
+  - picName: name of each picture
 -	Category:
-o	categoryID: unique sequence of each category
-o	categoryName: name of each category
+  - categoryID: unique sequence of each category
+  - categoryName: name of each category
 
 
 ## Database design
