@@ -53,7 +53,7 @@ def spark_processing():
 	questions.write.bucketBy(10, "QuestionID") \
 		.format("parquet") \
 		.mode("overwrite")\
-		.option("path", r"/home/daniel/airflow/dags/output1")\
+		.option("path", r"/home/<user>/airflow/dags/output1")\
 		.saveAsTable("DB1.questions")
 
 	    # write data from answers dataframe to parquet table 
@@ -61,7 +61,7 @@ def spark_processing():
 		.bucketBy(10, "ParentId") \
 		.format("parquet") \
 		.mode("overwrite") \
-		.option("path", r"/home/daniel/airflow/dags/output2")\
+		.option("path", r"/home/<user>/airflow/dags/output2")\
 		.saveAsTable("DB1.answers")
 
 
